@@ -17,6 +17,7 @@
             android:name="com.wise.androidbus.MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar"
              >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
