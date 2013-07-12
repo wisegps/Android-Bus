@@ -28,6 +28,8 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);
 		init();
 	}
+	
+	
 	class MyThread extends Thread {
 		public boolean isRun;
 		public MyThread() {
@@ -52,6 +54,7 @@ public class MainActivity extends Activity {
 			while (isRun) {
 				Canvas c = mSurfaceHolder.lockCanvas();// 锁定画布，一般在锁定后就可以通过其返回的画布对象Canvas，在其上面画图等操作了。
 				c.drawColor(Color.WHITE);// 设置画布背景颜色
+				
 				Paint paint = new Paint(); // 创建画笔
 				paint.setTextSize(TextSize);
 				paint.setColor(Color.RED);
