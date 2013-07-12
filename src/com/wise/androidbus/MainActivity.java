@@ -27,7 +27,9 @@ public class MainActivity extends Activity {
 	private void add(){
 		
 	}
-
+	private void test(){
+		//abcdef
+	}
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
