@@ -19,6 +19,14 @@ public class MainActivity extends Activity {
 	private void init(){
 		
 	}
+	
+	/**
+	 * wang sir 2013-7-12
+	 * Ìí¼Ó
+	 */
+	private void add(){
+		
+	}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
