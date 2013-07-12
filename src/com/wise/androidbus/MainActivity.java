@@ -12,7 +12,6 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);
 		initView();
 	}
-	
 	private void initView(){
 		imageView = (ImageView) findViewById(R.id.image_view);
 	}
