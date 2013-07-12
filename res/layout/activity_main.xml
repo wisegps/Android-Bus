@@ -44,6 +44,8 @@
 	    >
 	    <ImageView 
 	        android:id="@+id/image_view"
+	        android:layout_width="wrap_content"
+	        android:layout_height="150dip"
 	        android:background="@drawable/image"
 	        android:layout_weight="1"
 	        android:layout_marginRight="4dip"
@@ -59,7 +61,7 @@
 	            android:layout_width="fill_parent"
 	            android:layout_height="fill_parent"
 	            android:background="#000000" 
-	            android:layout_margin="0.5dip"
+	            android:layout_margin="1dip"
 	            >
 	            
 	            <TextView 
@@ -67,7 +69,7 @@
 	                android:layout_height="fill_parent"
 	                android:text="textview"
 	                android:gravity="center"
-	                android:layout_weight="1"
+	                android:layout_weight="6"
 	                android:background="#63A111" 
 	                android:layout_margin="1dip"
 	                />
@@ -76,7 +78,7 @@
 	                android:layout_height="fill_parent"
 	                android:text="textview"
 	                android:gravity="center"
-	                android:layout_weight="1"
+	                android:layout_weight="6"
 	                android:background="#D55513" 
 	                android:layout_margin="1dip"
 	                />
@@ -86,68 +88,148 @@
 	            android:layout_width="fill_parent"
 	            android:layout_height="fill_parent"
 	            android:background="#000000"
-	            android:layout_margin="0.5dip"
+	            android:layout_margin="1dip"
 	             >
 	            
 	            <TextView 
-	                android:layout_width="fill_parent"
-	                android:layout_height="fill_parent"
-	                android:text="textview"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="JTM001"
 	                android:gravity="center"
-	                android:layout_weight="1"
-	                android:background="#6E965D" 
+	                android:background="#CF7720" 
 	                android:layout_margin="1dip"
+	                android:layout_weight="1"
 	                />
 	            <TextView 
-	                android:layout_width="fill_parent"
-	                android:layout_height="fill_parent"
-	                android:text="textview"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="13 MUNIT"
 	                android:gravity="center"
-	                android:layout_weight="1"
 	                android:background="#6E965D" 
 	                android:layout_margin="1dip"
+	                android:layout_weight="1"
 	                />
-	            
+				<TextView 
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="JTM001"
+	                android:gravity="center"
+	                android:background="#CF7720" 
+	                android:layout_margin="1dip"
+	                android:layout_weight="1"
+	                />	
+	             <TextView 
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="13 MUNIT"
+	                android:gravity="center"
+	                android:background="#6E965D" 
+	                android:layout_margin="1dip"
+	                android:layout_weight="1"
+	                />            
 			</TableRow>
 			
 	        <TableRow
 	            android:layout_width="fill_parent"
 	            android:layout_height="fill_parent"
 	            android:background="#000000"
-	            android:layout_margin="0.5dip"
+	            android:layout_margin="1dip"
 	             >
-	            
 	            <TextView 
-	                android:layout_width="fill_parent"
-	                android:layout_height="fill_parent"
-	                android:text="textview"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="JTM001"
 	                android:gravity="center"
-	                android:layout_weight="1"
-	                android:background="#6E965D" 
+	                android:background="#CF7720" 
 	                android:layout_margin="1dip"
+	                android:layout_weight="1"
 	                />
 	            <TextView 
-	                android:layout_width="fill_parent"
-	                android:layout_height="fill_parent"
-	                android:text="textview"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="13 MUNIT"
 	                android:gravity="center"
-	                android:layout_weight="1"
 	                android:background="#6E965D" 
 	                android:layout_margin="1dip"
+	                android:layout_weight="1"
 	                />
+				<TextView 
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="JTM001"
+	                android:gravity="center"
+	                android:background="#CF7720" 
+	                android:layout_margin="1dip"
+	                android:layout_weight="1"
+	                />	
+	             <TextView 
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="13 MUNIT"
+	                android:gravity="center"
+	                android:background="#6E965D" 
+	                android:layout_margin="1dip"
+	                android:layout_weight="1"
+	                />  
 			</TableRow>
+			
+	        
+	        <TableRow
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent"
+	            android:background="#000000"
+	            android:layout_margin="1dip"
+	             >
+	            <TextView 
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="JTM001"
+	                android:gravity="center"
+	                android:background="#CF7720" 
+	                android:layout_margin="1dip"
+	                android:layout_weight="1"
+	                />
+	            <TextView 
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="13 MUNIT"
+	                android:gravity="center"
+	                android:background="#6E965D" 
+	                android:layout_margin="1dip"
+	                android:layout_weight="1"
+	                />
+				<TextView 
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="JTM001"
+	                android:gravity="center"
+	                android:background="#CF7720" 
+	                android:layout_margin="1dip"
+	                android:layout_weight="1"
+	                />	
+	             <TextView 
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="13 MUNIT"
+	                android:gravity="center"
+	                android:background="#6E965D" 
+	                android:layout_margin="1dip"
+	                android:layout_weight="1"
+	                />  
+			</TableRow>
+	        
 			<TableRow 
 			    android:layout_width="fill_parent"
 	            android:layout_height="fill_parent"
 	            android:background="#000000"
-	            android:layout_marginTop="8dip"
+	            android:layout_marginTop="16dip"
 			    >
 			    <TextView 
 	                android:layout_width="fill_parent"
 	                android:layout_height="fill_parent"
 	                android:text="textview"
 	                android:gravity="center"
-	                android:layout_weight="1"
+	                android:layout_weight="6"
 	                android:background="#6E965D" 
 	                android:layout_margin="1dip"
 	                />
