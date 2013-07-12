@@ -7,15 +7,6 @@ import android.app.Activity;
 import android.content.Context;
 public class MainActivity extends Activity {
 	private ImageView imageView = null;
-	/**
-	 * 获取ImageView 控件的坐标
-	 * 用于绘制边框
-	 */
-	private int imageViewTop = 0;
-	private int imageViewButtom = 0;
-	private int imageViewLeft = 0;
-	private int imageViewRight = 0;
-	
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
@@ -24,17 +15,5 @@ public class MainActivity extends Activity {
 	
 	private void initView(){
 		imageView = (ImageView) findViewById(R.id.image_view);
-		
-		int location[] = new int[2];
-		imageView.getLocationInWindow(location);
 	}
-	protected void onResume() {
-		super.onResume();
-		Log.e("top--->", imageView.getTop()+"");
-		Log.e("bottom--->", imageView.getBottom()+"");
-		Log.e("left--->", imageView.getLeft()+"");
-		Log.e("right--->", imageView.getRight()+"");
-	}
-	
-	
 }

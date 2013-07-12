@@ -44,8 +44,6 @@
 	    >
 	    <ImageView 
 	        android:id="@+id/image_view"
-	        android:layout_width="70dip"
-	        android:layout_height="100dip"
 	        android:background="@drawable/image"
 	        android:layout_weight="1"
 	        android:layout_marginRight="4dip"
@@ -55,7 +53,7 @@
 	        android:id="@+id/detail_info"
 	        android:layout_width="fill_parent"
 	        android:layout_height="fill_parent"
-	        android:layout_weight="1"
+	        android:layout_weight="10"
 	        >
 	        <TableRow
 	            android:layout_width="fill_parent"
