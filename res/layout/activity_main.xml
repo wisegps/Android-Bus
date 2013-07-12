@@ -3,8 +3,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="#ffffff"
-    android:orientation="vertical"
-	>
+    android:orientation="vertical">
 	<!-- title -->
 	<LinearLayout
 	    android:layout_width="fill_parent"
@@ -34,7 +33,7 @@
 	<!-- content -->
 	<TableLayout
 	    android:layout_width="fill_parent"
-	    android:layout_height="fill_parent"
+	    android:layout_height="wrap_content"
 	    android:layout_margin="3dip"
 	     >
 	<TableRow 
@@ -238,4 +237,8 @@
 	    </TableLayout>
 	</TableRow>
 </TableLayout>
+<SurfaceView
+        android:id="@+id/surfaceView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
 </LinearLayout>
