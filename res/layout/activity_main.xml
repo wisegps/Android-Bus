@@ -16,7 +16,7 @@
 	     <TextView 
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
-	        android:textSize="12pt"
+	        android:textSize="8pt"
 	        android:text="Hello"
 	        android:gravity="left"
 	        android:layout_weight="1"
@@ -24,7 +24,7 @@
 	    <TextView 
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
-	        android:textSize="12pt"
+	        android:textSize="8pt"
 	        android:text="time"
 	        android:gravity="right"
 	        android:layout_weight="1"
@@ -39,6 +39,7 @@
 	    android:layout_marginLeft="3dip"
 	    android:layout_marginRight="3dip"
 	    android:layout_marginBottom="3dip"
+	    android:layout_weight="0"
 	     >
 	<TableRow 
 	    android:layout_width="fill_parent"
@@ -242,15 +243,19 @@
 	    </TableLayout>
 	</TableRow>
 </TableLayout>
+
+	
 <SurfaceView
         android:id="@+id/surfaceView1"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+         />
 <TextView 
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:text="text"
     android:gravity="center"
     android:background="#90180E"
+    android:layout_weight="1"
     />
 </LinearLayout>
