@@ -1,4 +1,1 @@
-12345
-abcdef
-ghijkl
-xcvbnm
+git@github.com:wisegps/Android-Bus.git
